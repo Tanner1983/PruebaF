@@ -1,0 +1,319 @@
+header
+{
+    vertical-align: middle;
+    font-size: 40pt;
+    color:#095D5B;
+    font-family: Calibri;
+    border: 3px outset   #095D5B;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #095D5B;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #095D5B;
+  color: white;
+}
+
+.logo
+    {
+        width: 50px;
+        height: 50px;
+        border: none;        
+    }  
+    h2
+    {
+        font-size: 30pt;
+        padding-top: 20px; 		
+        text-align: center;
+        text-decoration: underline black; 
+        font: bold;  
+    }
+    img
+    	{
+    		width: 350px;
+    		height: 300px;    		
+        border: 5px solid grey;  
+        border-radius: 10px;
+       
+    	}
+    body 
+        {
+        font-family: Calibri;
+        line-height: 1.25;
+       }
+    p
+    {
+        font-style: oblique;
+    }
+      
+      table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+      }
+      
+      table caption {
+        font-size: 1.5em;
+        margin: .5em 0 .75em;
+      }
+      
+      table tr {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: .35em;
+      }
+      
+      table th,
+      table td {
+        padding: .625em;
+        text-align: center;
+      }
+      
+      
+      table th {
+        font-size: 20pt;
+        letter-spacing: .1em;        
+        text-decoration: underline black; 
+        font-style: oblique;
+      }
+      
+      @media screen and (max-width: 800px) {
+        table {
+          border: 0;
+        }
+      
+        table caption {
+          font-size: 10pt;
+        }
+        
+        table thead {
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+        
+        table tr {
+          border-bottom: 3px solid #ddd;
+          display: block;
+          margin-bottom: .625em;
+        }
+        
+        table td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          font-size: .8em;
+          text-align: right;
+        }
+        table td img
+        {
+          width: 300px;
+          height: 250px;    		
+          border: 1px solid red;  
+          border-radius: 10px;
+        }
+        
+        table td::before {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        table td:last-child {
+          border-bottom: 0;
+        }
+      }
+      .textoParrafo
+      {
+        font-size: x-small;
+        text-indent: 50px;
+        letter-spacing: 3px;
+      }  
+
+      @media screen and (max-width: 600px) {
+        table {
+          border: 0;
+        }
+      
+        table caption {
+          font-size: 10pt;
+        }
+        
+        table thead {
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+        
+        table tr {
+          border-bottom: 3px solid #ddd;
+          display: block;
+          margin-bottom: .625em;
+        }
+        
+        table td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          font-size: .8em;
+          text-align: right;
+        }
+        table td img
+        {
+          width: 250px;
+          height: 200px;    		
+          border: 3px solid #095D5B;  
+          border-radius: 10px;
+        }
+        
+        table td::before {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        table td:last-child {
+          border-bottom: 0;
+        }
+
+        .textoParrafo
+        {
+          font-size:small;
+          text-indent: 50px;
+          letter-spacing: 3px;
+        }  
+      }
+    
+      footer
+      {
+          background-color: #095D5B;
+      }
+      h3
+      {
+        font-size: 20pt;
+        padding-bottom: 40px; 	
+        color: white;	
+        text-align: center;
+        text-decoration: underline white; 
+        font: bold;  
+        font-style: oblique;
+      }
+      
+      .boton 
+        {
+
+          background-color: #095D5B; 
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+.contenido
+{ 
+  padding-top: 50px;
+  font-family: Calibri; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #095D5B; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;  
+}
+.titulilloH2
+{
+  text-align: center;
+  text-decoration: underline white;
+}
+.textoParrafo
+{
+  font-size: large;
+  text-indent: 50px;
+  letter-spacing: 3px;
+}  
+
+.imgMision
+{
+  float: left;
+}
+
+.imgVision
+{
+  float: right;
+}
+
+.formulario{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+.formulario label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;	
+	resize:none;
+	display:block;
+}
