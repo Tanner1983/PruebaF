@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <style>
+        .centrado
+        {
+            display: block;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        .tamano
+        {
+            width: 250px;
+            height: 250px;            
+        }
+        
+        table
+        {
+            padding-left: 25%;
+            margin: 0 auto;
+            text-align:center;
+        }
+        h2
+        {
+            padding-left: 45%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            tabla {
+                width:5%;
+            }
+            thead {
+                display: none;
+            }
+            tr:nth-of-type(2n) {
+                background-color: inherit;
+            }
+            tr td:first-child {
+                background: #f0f0f0;
+                font-weight:bold;
+                font-size:1.3em;
+            }
+            tbody td {
+                display: block;
+                text-align:center;
+            }          
+            .tamano
+            {
+                width: 350px;
+                height: 350px;            
+            }   
+            tbody td:before {
+                content: attr(data-th);
+                display: block;
+                text-align:center;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            tabla {
+                width:5%;
+            }
+            thead {
+                display: none;
+            }
+            tr:nth-of-type(2n) {
+                background-color: inherit;
+            }
+            tr td:first-child {
+                background: #f0f0f0;
+                font-weight:bold;
+                font-size:1.3em;
+            }
+            tbody td {
+                display: block;
+                text-align:center;
+            }
+            .tamano
+            {
+                width: 250px;
+                height: 250px;            
+            }    
+            tbody td:before {
+                content: attr(data-th);
+                display: block;
+                text-align:center;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            tabla {
+                width:5%;
+            }
+            thead {
+                display: none;
+            }
+            tr:nth-of-type(2n) {
+                background-color: inherit;
+            }
+            tr td:first-child {
+                background: #f0f0f0;
+                font-weight:bold;
+                font-size:1.3em;
+            }
+            tbody td {
+                display: block;
+                text-align:center;
+            }    
+            .tamano
+            {
+                width: 150px;
+                height: 150px;            
+            } 
+            tbody td:before {
+                content: attr(data-th);
+                display: block;
+                text-align:center;
+            }
+        }
+     
+    </style>
+    <header>
+        <img class="centrado tamano" src="assert/logo.png" alt="" width="200px%" height="200px%">Veterinaria San Francisco
+    </header>  <br>
+</head>
+<body>
+    <h2>Productos y Servicios</h2>
+    <table class="tabla centrado">
+        <thead>
+            <th>Producto</th>
+            <th>Producto</th>
+            <th>Producto</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="alimento">
+                    <img class="centrado tamano" src="assert/alimento.jpg">
+                    <p>
+                        Alimento para Perro <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+                <td  class="alimento">
+                    <img class="centrado tamano" src="assert/gato.png" alt="">
+                    <p>
+                        Alimento para Gato <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+                <td  class="alimento">
+                    <img class="centrado tamano" src="assert/tortuga.gif">
+                    <p>
+                        Alimento para Tortuga <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+        <thead>
+            <th>Servicio</th>
+            <th>Servicio</th>
+            <th>Servicio</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img class="centrado tamano" src="assert/consulta.jpg" alt="Imagen no encontrada">
+                    <p>
+                        Consulta Veterinaria <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+                <td>
+                    <img class="centrado tamano" src="assert/vacuna.jpg">
+                    <p>
+                        Servicio de Vacunacion <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+                <td>
+                    <img class="centrado tamano" src="assert/peluqueria.jpg">
+                    <p>
+                        Servicio de Peluqueria <br>
+                        Disponible en: 
+                        <select name="cmbSucursal" id=""> 
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Sucursal 1</option>
+                            <option value="2">Sucursal 2</option>
+                            <option value="3">Sucursal 3</option>
+                        </select>
+                    </p>
+                </td>
+              </tr>
+        </tbody>            
+    </table>
+</body>
+</html>
