@@ -1,0 +1,135 @@
+header
+{
+    vertical-align: middle;
+    font-size: 40pt;
+    color:#095D5B;
+    font-family: Calibri;
+    border: 3px outset   #095D5B;
+}
+
+.logo
+    {
+        width: 50px;
+        height: 50px;
+        border: none;        
+    }  
+    h2
+    {
+        font-size: 30pt;
+        padding-top: 20px; 		
+        text-align: center;
+        text-decoration: underline black; 
+        font: bold;  
+    }
+    img
+    	{
+    		width: 350px;
+    		height: 300px;    		
+            border: 5px solid grey;  
+            border-radius: 10px;
+       
+    	}
+    body 
+        {
+        font-family: Calibri;
+        line-height: 1.25;
+       }
+    p
+    {
+        font-style: oblique;
+    }
+      
+      table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+      }
+      
+      table caption {
+        font-size: 1.5em;
+        margin: .5em 0 .75em;
+      }
+      
+      table tr {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: .35em;
+      }
+      
+      table th,
+      table td {
+        padding: .625em;
+        text-align: center;
+      }
+      
+      table th {
+        font-size: 20pt;
+        letter-spacing: .1em;        
+        text-decoration: underline black; 
+        font-style: oblique;
+      }
+      
+      @media screen and (max-width: 600px) {
+        table {
+          border: 0;
+        }
+      
+        table caption {
+          font-size: 10pt;
+        }
+        
+        table thead {
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+        
+        table tr {
+          border-bottom: 3px solid #ddd;
+          display: block;
+          margin-bottom: .625em;
+        }
+        
+        table td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          font-size: .8em;
+          text-align: right;
+        }
+        
+        table td::before {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        table td:last-child {
+          border-bottom: 0;
+        }
+      }
+    
+      footer
+      {
+          background-color: #095D5B;
+      }
+      h3
+      {
+        font-size: 20pt;
+        padding-bottom: 40px; 	
+        color: white;	
+        text-align: center;
+        text-decoration: underline white; 
+        font: bold;  
+        font-style: oblique;
+      }
+      
+      
