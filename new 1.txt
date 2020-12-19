@@ -8,3 +8,17 @@ otra linea
 ?????
 
 fock
+
+......
+
+
+
+git init
+
+git add .
+
+git commit -m "Comentario"
+
+git remote add origin https://github.com/Tanner1983/PruebaF.git
+
+git push -u origin master
